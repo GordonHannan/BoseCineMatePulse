@@ -6,7 +6,7 @@ namespace BoseCineMatePulse
 	{
 		CancellationTokenSource? _cts;
 		Task? _timerTask;
-		readonly TimeSpan interval = TimeSpan.FromMinutes(25);
+		readonly TimeSpan interval = TimeSpan.FromMinutes(10);
 
 		public Igniter()
 		{

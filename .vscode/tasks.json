@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "dotnet",
+            "task": "build c:\\repo\\BoseCineMatePulse\\BoseCineMatePulse.csproj",
+            "file": "c:\\repo\\BoseCineMatePulse\\BoseCineMatePulse.csproj",
+            "group": "build",
+            "problemMatcher": [],
+            "label": "dotnet: build c:\\repo\\BoseCineMatePulse\\BoseCineMatePulse.csproj"
+        }
+    ]
+}

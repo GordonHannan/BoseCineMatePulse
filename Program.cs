@@ -41,7 +41,7 @@ namespace BoseCineMatePulse
 
 			private void SetupNotifyIcon()
 			{
-				notifyIcon!.Text = "Rokit Igniter";
+				notifyIcon!.Text = "Bose CineMate Pulse";
 				notifyIcon.Icon = new("BoseCineMatePulse.ico");
 				notifyIcon.ContextMenuStrip = new();
 				notifyIcon.ContextMenuStrip.Items.Add("Ignite", null, async (s, e) => await Ignite_ClickAsync(s, e));
