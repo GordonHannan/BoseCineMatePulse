@@ -44,7 +44,7 @@ namespace BoseCineMatePulse
 				notifyIcon!.Text = "Bose CineMate Pulse";
 				notifyIcon.Icon = new("BoseCineMatePulse.ico");
 				notifyIcon.ContextMenuStrip = new();
-				notifyIcon.ContextMenuStrip.Items.Add("Ignite", null, async (s, e) => await Ignite_ClickAsync(s, e));
+				notifyIcon.ContextMenuStrip.Items.Add("Pulse", null, async (s, e) => await Ignite_ClickAsync(s, e));
 				notifyIcon.ContextMenuStrip.Items.Add("About", null, ShowAboutMessageBox_Click);
 				notifyIcon.ContextMenuStrip.Items.Add("Exit", null, ExitApplication_Click);
 
