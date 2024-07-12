@@ -1,4 +1,4 @@
-namespace RokitIgniter
+namespace BoseCineMatePulse
 {
 	internal static class Program
 	{
@@ -9,10 +9,10 @@ namespace RokitIgniter
 		static void Main()
 		{
 			//make sure only one instance of the application can be running at the same time
-			using var mutex = new Mutex(false, "RokitIgniter");
+			using var mutex = new Mutex(false, "BoseCineMatePulse");
 			if (!mutex.WaitOne(0, false))
 			{
-				MessageBox.Show("RokitIgniter is already running.", "RokitIgniter", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				MessageBox.Show("BoseCineMatePulse is already running.", "BoseCineMatePulse", MessageBoxButtons.OK, MessageBoxIcon.Information);
 				return;
 			}
 
@@ -42,7 +42,7 @@ namespace RokitIgniter
 			private void SetupNotifyIcon()
 			{
 				notifyIcon!.Text = "Rokit Igniter";
-				notifyIcon.Icon = new("RokitIgniter.ico");
+				notifyIcon.Icon = new("BoseCineMatePulse.ico");
 				notifyIcon.ContextMenuStrip = new();
 				notifyIcon.ContextMenuStrip.Items.Add("Ignite", null, async (s, e) => await Ignite_ClickAsync(s, e));
 				notifyIcon.ContextMenuStrip.Items.Add("About", null, ShowAboutMessageBox_Click);
@@ -69,7 +69,7 @@ namespace RokitIgniter
 			void ShowAboutMessageBox_Click(object? sender, EventArgs? e)
 			{
 				var packageVersion = typeof(Program).Assembly.GetName().Version;
-				MessageBox.Show($"RokitIgniter v{packageVersion}", "RokitIgniter", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				MessageBox.Show($"BoseCineMatePulse v{packageVersion}", "BoseCineMatePulse", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			}
 
 			private void ExitApplication_Click(object? sender, EventArgs e)

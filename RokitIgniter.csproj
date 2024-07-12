@@ -7,14 +7,14 @@
 		<Nullable>enable</Nullable>
 		<UseWindowsForms>true</UseWindowsForms>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<ApplicationIcon>RokitIgniter.ico</ApplicationIcon>
+		<ApplicationIcon>BoseCineMatePulse.ico</ApplicationIcon>
 		<DebugType>none</DebugType>
-		<PackageIcon>RokitIgniter.ico</PackageIcon>
+		<PackageIcon>BoseCineMatePulse.ico</PackageIcon>
 		<AssemblyVersion>0.1.5</AssemblyVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Include="RokitIgniter.ico">
+		<Content Include="BoseCineMatePulse.ico">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
@@ -38,7 +38,7 @@
 		<None Update="10Hz.wav">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-		<None Update="RokitIgniter.ico">
+		<None Update="BoseCineMatePulse.ico">
 		  <Pack>True</Pack>
 		  <PackagePath>\</PackagePath>
 		</None>

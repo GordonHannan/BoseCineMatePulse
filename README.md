@@ -9,4 +9,4 @@ so it simply runs as a tray icon.
 
 The wake-up sound will be played every 20 minutes, but you can invoke it manually by clicking the tray icon.
 
-Fork of https://github.com/drittich/RokitIgniter., I believe Bose needs it every 15 minutes but I haven't sat here and timed it yet.
+Fork of https://github.com/drittich/BoseCineMatePulse., I believe Bose needs it every 15 minutes but I haven't sat here and timed it yet.

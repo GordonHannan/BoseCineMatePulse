@@ -1,7 +1,7 @@
 @echo off
 IF "%~1" NEQ "" set EXE_VERSION=-%1
 set SOLUTION_PATH=%~p0
-set APP_NAME=RokitIgniter
+set APP_NAME=BoseCineMatePulse
 set PROJECT_PATH=%SOLUTION_PATH%
 set PUBLISH_PATH=%PROJECT_PATH%\bin\Publish
 set ZIP_EXE_PATH="C:\Program Files\7-Zip\7z.exe"

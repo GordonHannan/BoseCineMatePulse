@@ -1,6 +1,6 @@
 ﻿using System.Media;
 
-namespace RokitIgniter
+namespace BoseCineMatePulse
 {
 	public class Igniter : IDisposable
 	{
